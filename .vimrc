@@ -80,7 +80,6 @@ set backspace=indent,eol,start            " Backspace for dummies
 set linespace=0                           " No extra spaces between rows
 set autowrite                             " Automatically save before :next
 set autoread                              " Automatically reread changed files
-set diffopt+=vertical                     " Vertical diff splits
 set nowrap                                " Do not wrap long lines
 set splitright                            " New vsplit windows to the right
 set splitbelow                            " New split windows to the bottom
@@ -89,6 +88,8 @@ set modelines=1                           " Last line reserved for vim actions
 set linebreak                             " Wrap lines at convenient points
 set tabstop=2				  " default tabstop
 
+let g:go_gocode_propose_source = 1
+autocmd BufWritePost *.go silent! :GoBuild -i
 " Vim-Go {{{
   let g:go_highlight_functions = 1
   let g:go_highlight_methods = 1
