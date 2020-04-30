@@ -1,0 +1,23 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "window.zoomLevel": 0,
+    "go.useLanguageServer": true,
+    "workbench.activityBar.visible": false,
+    "editor.renderIndentGuides": false,
+    "workbench.editor.showTabs": true,
+    "editor.formatOnType": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "files.useExperimentalFileWatcher": true,
+    "workbench.colorTheme": "Tomorrow Night Bright",
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "gopls": {
+        "completeUnimported": true
+    },
+    "workbench.iconTheme": null,
+    "workbench.sideBar.location": "left",
+    "editor.cursorStyle": "line",
+    "window.menuBarVisibility": "toggle"
+}

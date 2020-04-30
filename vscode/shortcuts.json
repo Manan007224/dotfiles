@@ -1,0 +1,14 @@
+[
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.toggleTabsVisibility"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.toggleFullScreen"
+    }
+]
